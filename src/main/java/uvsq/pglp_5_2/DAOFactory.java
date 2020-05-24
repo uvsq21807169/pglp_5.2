@@ -4,6 +4,8 @@ public class DAOFactory {
 
 	public static DAO<Personnels> getPersonneDAO(){
 		return new PersonneDAO();
+		
+		
 	}
 
 }
