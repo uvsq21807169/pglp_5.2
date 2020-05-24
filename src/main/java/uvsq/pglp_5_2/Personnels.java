@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public final class Personnels implements GroupePersonnes, Serializable {
 
-	private String nom;
-	private String prenom;
-	private String fonction;
-	private java.time.LocalDateTime date_naissance;
-	private ArrayList<Integer> num_tel;
+	public String nom;
+	public String prenom;
+	public String fonction;
+	public java.time.LocalDateTime date_naissance;
+	public ArrayList<Integer> num_tel;
 	
 	public static class Builder{
 		private String nom;
