@@ -11,6 +11,9 @@ public class AfficheParGroupe {
 	public AfficheParGroupe(GroupePersonnes persAvant) {
 		premier = persAvant;
 		persApres = new  ArrayList<GroupePersonnes>();
+		
+		
+		
 	}
 	
 	
